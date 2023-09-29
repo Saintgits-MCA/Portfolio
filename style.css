@@ -81,3 +81,42 @@ h3,.div1 h4{
 float: left;
 margin-left:10%;
 }
+ #About
+
+  {
+
+    margin-top: 1%;
+
+    background-color:darkviolet ;
+
+    color: white;
+
+    font-weight: bold;
+
+    text-align: center;
+
+  }
+
+  #About h4
+
+  {
+
+    font-size: 20px;
+
+  }
+
+ nav
+
+ {
+
+   margin-bottom:40%;
+
+ }
+
+.div1 h4
+
+{
+
+  margin-bottom: 40%;
+
+}
