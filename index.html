@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
     <title>Portfolio</title>
     <style>
      
@@ -19,7 +20,9 @@
            text-decoration:none;
            font-weight: bold;
            margin-bottom: 80px;
-            top:0px;
+            top:0;
+            overflow: hidden;
+            
         }
          
         .div1
@@ -66,6 +69,7 @@
         color: black;
         margin-left:15px;
     }
+ 
     h5
     {
         font-size: 18px;
@@ -116,15 +120,28 @@ margin-left:30%;
  background-color: rgb(167, 162, 162);
     padding-top:20px;
 }
-
-</style>
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  </style>
 </head>
 <body>
     <div class="div1">
         <br><br>
-    <h5 style="color:white;text-align:left;margin-left:10px;float:left;">Prudhwi Raj Krishna V</h5>
+    <h5 style="color:white;text-align:left;margin-left:10px;float:left;overflow:hidden;">Prudhwi Raj Krishna V</h5>
  
-    <nav class="navbar">
+    <nav class="navbar-lg  fixed-top navbarScroll">
              &emsp;&ensp;<a href="#" class="a1">Home</a>
                 &emsp;&ensp;<a href="#About" class="a1">About</a>
         &emsp;&ensp;<a href="#Project" class="a1" >Projects</a>
@@ -134,13 +151,16 @@ margin-left:30%;
     <br><br>
   
     <h3 style="margin-left:40px;"><b style="color:whitesmoke;">Hey,</b> <br><br><b style="font-size:40px ;">I'm Prudhwi Raj</b></h3>  
-    <h4 style="margin-left:10%;margin-bottom: 30%;"> Web Developer</h4>
+    <h4 style="margin-left:6%;margin-bottom: 30%;font-size: 20px;"> Web Developer</h4>
     <br><br>
 </div>
 <div id="About">
     <h3 style="text-align:center;background-color:black;" id="About">About</h3>
-     <p style="margin-left: 30px;">I am a Web Developer and also interested in Software Development. <br> I started with Creating Clones of many famous Websites.</p>
-    <h3 style="margin-left:60px;">Profile</h3>
+    <b style="margin-left: 30px;margin-left:70px;">Name : </b>Prudhwi Raj Krishna V <br><br>
+    <b style="margin-left: 30px;margin-left:70px;">Age : </b>21 <br><br>
+    <b style="margin-left: 30px;margin-left:70px;">Profession: </b>Web Developer <br><br>
+     <p style="margin-left: 30px;margin-left:70px;"><li>I am a Web Developer and also interested in Software Development. </li>
+    <li>I started with Creating Clones of many famous Websites.</li></p>
 <li>Resourceful developer.</li>
 
 <li>Very familiar with HTML,CSS and Python.</li>
@@ -168,25 +188,25 @@ margin-left:30%;
     <a href="#" ><button style="color: white;background-color:Blue;margin-left: 80%;width:120px;height:30px;">Back to Home</button></a>
 </div>
 <div id="Project">
-    <h4 style="text-align: center;font-size:20px;padding-top:10px;">Our Projects</h4>
+    <h4 style="text-align: center;font-size:30px;padding-top:10px;">Our Projects</h4>
   <div class="card1">
-            <h5 class="card-title">Tecknohow Solutions</h5>
+            <h5 class="card-title" style="font-size:20px;">Tecknohow Solutions</h5>
             <a href="https://tecknohowtroubleshooting.wordpress.com/" class="btn"><img src="https://tecknohowtroubleshooting.files.wordpress.com/2021/10/cropped-cropped-cropped-cropped-cropped-logo-removebg-preview.png" alt="" width="144" height="144" class="card-img-top rounded  h-50" id="img2">
            </a>
             </div>
         
 
         <div class="card2">
-            <h5 class="card-title">Saintgits Website Clone</h5>
+            <h5 class="card-title" style="font-size:20px;">Saintgits Website Clone</h5>
             <a href="https://saintgits-mca.github.io/" class="btn"> <img src="https://saintgits-mca.github.io/images/Logo.jpg" alt="">  </a>
           
         </div>
                  
 
        <div class="card" id="card3">
-            <h5 class="card-title" style="text-align:center;;">&emsp;Netflix Clone</h5>
+            <h5 class="card-title" style="text-align:center;font-size:20px;">&emsp;Netflix Clone</h5>
 
-            <a href="https://prudhwi2002.github.io/Webflix/" class="btn"> <img src="https://prudhwi2002.github.io/Webflix/netflix.png" alt="">  </a>
+            <a href="https://prudhwi2002.github.io/Webflix/" class="btn"> <img src="https://prudhwi2002.github.io/Webflix/webflix.png" alt="">  </a>
             <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         </div><br><br><br>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -194,23 +214,23 @@ margin-left:30%;
     <div class="div2" id="Contact Us">
         <br>
         <div id="cont" style="text-align:left;">
-        <h4 style="font-size: 20px;margin-left:50px;" >Contact Details</h4>
-        <p>
+        <h4 style="font-size: 40px;margin-left:50px;" >Contact Details</h4>
+        <p  style="font-size: 25px">
            <a href="mailto:premshahi@gmail.com" style="text-decoration:none;color: white;">premshahi@gmail.com </a><br><br>
             <a href="tel:7849210121" style="text-decoration:none;color: white;">7849210121</a> <br><br>
             Flat no.12,Skyline<br><br>
             Bangaluru,Karnataka
           </p>
         </div>
-        <div>
+        <div style="margin-left:40px;">
             <form action="mailto:prudhwirajk@gmail.com" method="POST">
-                <h5 style="margin-left:40% ;">Contact Direct</h5>
-                <input type="text" placeholder="Name"style="width:200px;color:white;float:left;margin-left:40%;background-color:black;border:2px Solid White;"><br><br>
-                <input type="mail" placeholder="Email" style="width:200px;color:white;float:left;margin-left:40%;background-color: black;border:2px solid white;"><br><br>
-                <textarea placeholder="Comments" style="color:white;background-color:black;float:left;margin-left:40%;border:2px solid white;" cols='25' rows='5'></textarea><br><br><br><br><br><br>
+                <h5 style="margin-left:40% ;font-size:40px;">Contact Direct</h5>
+                <input type="text" placeholder="Name"style="width:250px;height:30px;color:white;float:left;margin-left:40%;background-color:black;border:2px Solid White;"><br><br>
+                <input type="mail" placeholder="Email" style="width:250px;height:30px;color:white;float:left;margin-left:40%;background-color: black;border:2px solid white;"><br><br>
+                <textarea placeholder="Comments" style="width:250px;color:white;background-color:black;float:left;margin-left:40%;border:2px solid white;" cols='25' rows='5'></textarea><br><br><br><br><br><br>
             <input type="submit" id="tus" value="Touch with Us"><br>
         </form>
-        <br><br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br> <br><br><br><br><br><br>
                           <a href="https://facebook.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Facebook_Home_logo_old.svg" width="50px" style="margin-left:30%;"></a>
 
          <a href="https://api.whatsapp.com/send?phone=+919562766838"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1024px-WhatsApp.svg.png?20220228223904" width="50px" style="margin-left:10%;"></a>
@@ -221,6 +241,6 @@ margin-left:30%;
         Copyright 2023-2025 saintgits-mca.github.io | operated by PRKlab LLC Privacy Policy
         </div>
     </div>
-
+  
 </body>
 </html>
